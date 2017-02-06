@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="127.0" prefWidth="255.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="increase" layoutX="94.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#increaseValue" prefHeight="25.0" prefWidth="64.0" text="Increase" />
+      <Button fx:id="decrease" layoutX="94.0" layoutY="81.0" mnemonicParsing="false" onMouseClicked="#decreaseValue" text="Decrease" />
+      <Button fx:id="set" layoutX="169.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#setValue" prefHeight="25.0" prefWidth="64.0" text="Set" />
+      <Button fx:id="edit" layoutX="20.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#editValue" prefHeight="25.0" prefWidth="64.0" text="Edit" />
+      <Label layoutX="125.0" layoutY="14.0" text=":" />
+      <Label fx:id="hoursLabel" layoutX="112.0" layoutY="14.0" text="12" />
+      <Label fx:id="minutesLabel" layoutX="128.0" layoutY="14.0" text="00" />
+   </children>
+</Pane>
